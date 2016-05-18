@@ -1,22 +1,26 @@
 {
-    "name": "free-agent/bitter",
+    "name": "jithujose/bitter",
     "description": "Bitter is a simple but powerful analytics library",
     "keywords": ["bitter", "analytics", "redis"],
-    "homepage": "https://github.com/jeremyFreeAgent/Bitter",
+    "homepage": "https://github.com/jithujose/Bitter",
     "type": "library",
     "license": "MIT",
     "authors": [
         {
             "name": "Jérémy Romey",
             "email": "jeremy@free-agent.fr"
+        },
+        {
+            "name": "Jithu Jose",
+            "email": "jithumalayali@gmail.com"
         }
     ],
     "support": {
-        "issues": "https://github.com/jeremyFreeAgent/Bitter/issues"
+        "issues": "https://github.com/jithujose/Bitter/issues"
     },
     "require": {
-        "php": ">=5.3.3",
-        "ext-bitset": "1.0.1"
+        "php": ">=5.5.9",
+        "ext-bitset": "2.0.3"
     },
     "require-dev": {
         "predis/predis": "0.8.*",
